@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>欢迎原友</h1>
+    <img src="kq.jpg" height="500" width="300">
+
+    <form action="/user" method="get">
+        <input value="get提交" type="submit">
+    </form>
+
+    <form action="/user" method="post">
+        <input value="post提交" type="submit">
+    </form>
+
+    <form action="/user" method="post">
+        <input name="_method" type="hidden" value="PUT">
+        <input value="put提交" type="submit">
+    </form>
+
+    <form action="/user" method="post">
+        <input name="_method" type="hidden" value="DELETE">
+        <input value="delete提交" type="submit">
+    </form>
+    <a href="/car/3/user/zhangsan/list?age=18&inter=basketball&inter=soccer"> car </a>
+    <form action="/save" method="post">
+        <input name="userage" value="年龄">
+        <input name="username" value="名字">
+        <input type="submit" value="提交">
+    </form>
+    <br/>
+    <form action="/person1" method="post">
+        <input name="userName" value="zhangsan"/> <br/>
+        <input name="age" value="12"/> <br/>
+        <input name="birth" value="2019/2/13"/> <br/>
+        <input name="pet" value="阿毛,3"/><br/>
+        <input type="submit" value="提交">
+    </form>
+
+
+</body>
+</html>
