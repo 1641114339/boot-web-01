@@ -12,5 +12,6 @@ public class MyApplicationInitializer implements ApplicationContextInitializer {
         System.out.println("我是初始化4");
         System.out.println("master test");
         System.out.println("hot-fix test");
+        System.out.println("ssh push");
     }
 }
