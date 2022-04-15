@@ -9,5 +9,6 @@ public class MyApplicationInitializer implements ApplicationContextInitializer {
         System.out.println("我是初始化");
         System.out.println("我是初始化2");
         System.out.println("我是初始化3");
+        System.out.println("我是初始化4");
     }
 }
