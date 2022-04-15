@@ -8,5 +8,6 @@ public class MyApplicationInitializer implements ApplicationContextInitializer {
     public void initialize(ConfigurableApplicationContext applicationContext) {
         System.out.println("我是初始化");
         System.out.println("我是初始化2");
+        System.out.println("我是初始化3");
     }
 }
