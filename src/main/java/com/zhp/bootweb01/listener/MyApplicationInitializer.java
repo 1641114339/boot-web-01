@@ -7,5 +7,6 @@ public class MyApplicationInitializer implements ApplicationContextInitializer {
     @Override
     public void initialize(ConfigurableApplicationContext applicationContext) {
         System.out.println("我是初始化");
+        System.out.println("我是初始化2");
     }
 }
